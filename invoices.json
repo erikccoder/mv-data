@@ -1,12 +1,17 @@
 {
-	"companyLogo": "http://lea.verou.me/logo.svg",
+	"companyLogo": "https://cdn.rawgit.com/erikccoder/mv-data/8c998e2237119f6143d171d619423b9cd4630dd3/images/starglow.png",
 	"companyName": "Lea Verou",
 	"companyAddress": "42 JavaScript Way\n\t\t\tBoston, MA 02114\n\t\t\tUSA",
 	"companyURL": "http://lea.verou.me",
 	"companyEmail": "lea@verou.me",
 	"invoice": [
 		{
-			"id": "2",
+			"id": "4",
+			"currency": "$",
+			"services": []
+		},
+		{
+			"id": "3",
 			"date": "2016-10-06",
 			"recipient": {
 				"name": "Widget Corp",
@@ -29,7 +34,7 @@
 			]
 		},
 		{
-			"id": "1",
+			"id": "2",
 			"date": "2016-10-07",
 			"recipient": {
 				"name": "John Doe",
@@ -40,6 +45,21 @@
 				{
 					"description": "House cleaning",
 					"amount": "70"
+				}
+			]
+		},
+		{
+			"id": "1",
+			"date": "2017-09-09",
+			"recipient": {
+				"name": "Some Name",
+				"address": "someAddress"
+			},
+			"currency": "$",
+			"services": [
+				{
+					"description": "someDescription",
+					"amount": "123"
 				}
 			]
 		}
